@@ -1,0 +1,3 @@
+Huvudklass: Media
+Andraklass: Bok, Film, Ljudbok
+Tredjeklass: Roman (Förfatare, hylla, år, förlag)
