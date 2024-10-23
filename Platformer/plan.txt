@@ -1,0 +1,9 @@
+Make platformer like Mario
+
+Basic graphics
+Walking side to side
+Falling
+Jumping
+Enemies
+    Way to kill enemies as well
+Goal
