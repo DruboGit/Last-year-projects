@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="/style.css")
+    body 
+        a(id="nav", href="/")
+            img(src="/logo.png", alt="logo", id="logo")
+            h1(id="title") Outer Forums
+        div(id="mainCon")
+            hr
+            each thread in threadList 
+                div(class="catCon")
+                    a(href=`/thread/${thread.id}`)
+                        h2=thread.title 
+                        p=thread.description

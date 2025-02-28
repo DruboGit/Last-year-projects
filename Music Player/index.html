@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script src="renderer.js" defer></script>
+</head>
+<body>
+    <form>
+        <button>View music</button>
+        <button>Add music</button>
+        <button>Add artist</button>
+        <button>Add album</button><br>
+        <label for="audio-input">Audio file: </label>
+        <input type="button" id="audio-input" value="Choose File"><br>
+        <label for="">Cover file:</label>
+        <input type="button" id="cover-input" value="Choose File"><br>
+        <label for="song-title">Title: </label>
+        <input type="text" id="song-title"> <br>
+        <label for="song-genre">Genre: </label>
+        <input type="text" id="song-genre"><br>
+        <label for="artist-select">Artist: </label>
+        <select name="Artist" id="artist-select">
+            <option value=""> --Select artist--
+        </option>
+        </select><br>
+        <label for="album-select">Album: </label>
+        <select name="Album" id="album-select">
+            <option value=""> --Select album--
+        </option>
+        </select><br>
+        <label for="release">Release date: </label>
+        <input type="date">
+        <button>Submit</button>
+    </form>
+</body>
+</html>

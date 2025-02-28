@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'itc_avant_garde_gothicmedium';
+    src: url('itc-avant-garde-gothic-medium-webfont.woff2') format('woff2'),
+         url('itc-avant-garde-gothic-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: url(background.png);
+    background-attachment: fixed;
+    background-size: cover; 
+    color: white;
+}
+
+.catCon {
+    margin: auto;
+    width: 75%;
+    border: rgb(82, 72, 203) 2px solid;
+    background-color: black;
+}
+
+#mainCon{
+    margin: auto;
+    width: 60%;
+}
+
+#nav {
+    margin: auto;
+    width: 40%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    color: #ff7d25;
+    font-family: 'itc_avant_garde_gothicmedium';
+    font-size: 40px;
+}
+
+#logo {
+    width: 100px;
+}
